@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    border: 0;
+} 
+
+body, div, form, li, p, tr, th, td {
+  color: #242424;
+  background-color: #FFFFFF;
+  font-family: Arial, Verdana, Helvetica, Geneva, sans-serif;
+  font-size: 12px;
+}
+.pageTitle {
+	font-size: 14pt;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 3px 3px 8px 0 ;
+} 
+.small {
+	font-size: 9pt;
+}
+.tiny {
+    font-size: 8pt;
+}
+#pageBody {
+	margin-top: 15px;
+	margin-left: 150px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	padding: 5px;
+} 
+
+#pageFooter {
+	font-size: 9pt;
+	text-align: center;
+	padding-top: 2em;	
+	clear: left;
+}
+/* validation output */
+#error {
+    width: 60%; 
+    color: red; 
+    border: 2px dotted red; 
+    background-color: #f9f9f9; 
+    padding: 10px;    
+    margin: 10px;
+}
+/* validation message style */
+.error {
+	font-size: 14px;
+	color: red;
+}
+/* calendar icon in the datepicker */
+.newdateicon {
+	margin: 0 0 -5px 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+/* main form */
+#edit {
+	padding: 10px;
+}
+p.steps {
+	font-size: 12px;
+	font-weight: bold;
+}
+.result {
+	font-size: 16px;
+	font-family: Georgia, "Times New Roman", serif;
+	text-align: center;
+}
+
